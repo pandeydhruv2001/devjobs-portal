@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the role and apply through DevJobs.">
+  <title>Job details — DevJobs</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script type="module" src="js/details.js"></script>
+</head>
+<body class="details-page">
+  <header class="site-header"><nav class="nav wrap" aria-label="Main navigation">
+    <a class="brand" href="index.html"><span class="brand-mark">D</span> DevJobs</a>
+    <div class="nav-links"><a href="index.html#jobs">Find jobs</a><a href="index.html#categories">Categories</a></div>
+    <div class="nav-actions"><a class="button button-quiet" href="index.html#jobs">← All jobs</a><button class="icon-button" id="theme-toggle" type="button" aria-label="Switch theme">◐</button></div>
+  </nav></header>
+  <main class="wrap detail-main">
+    <a class="back-link" href="index.html#jobs">← Back to opportunities</a>
+    <div id="detail-loading" class="state-card"><p>Loading job details…</p></div>
+    <div id="detail-error" class="state-card" role="alert" hidden><h2>Job unavailable</h2><p>This opportunity could not be found.</p><a class="button button-primary" href="index.html#jobs">Browse jobs</a></div>
+    <div id="detail-content" hidden>
+      <section class="detail-hero">
+        <div class="detail-company" id="detail-company"></div>
+        <div class="detail-hero-actions"><button class="button button-secondary" id="detail-save" type="button">♡ Save job</button><button class="button button-primary" id="apply-open" type="button">Apply now</button></div>
+      </section>
+      <div class="detail-layout">
+        <article class="detail-copy">
+          <section class="detail-section"><p class="eyebrow">ABOUT THE ROLE</p><h2 id="detail-title"></h2><p id="detail-description" class="detail-description"></p></section>
+          <section class="detail-section"><h2>What you’ll do</h2><ul id="detail-responsibilities"></ul></section>
+          <section class="detail-section"><h2>What you’ll bring</h2><ul id="detail-requirements"></ul></section>
+          <section class="detail-section"><h2>Skills</h2><div class="tag-row" id="detail-skills"></div></section>
+          <section class="detail-section"><h2>Benefits</h2><ul id="detail-benefits"></ul></section>
+        </article>
+        <aside class="detail-aside"><h2>Role overview</h2><div class="overview-row"><span>Salary</span><strong id="detail-salary"></strong></div><div class="overview-row"><span>Experience</span><strong id="detail-experience"></strong></div><div class="overview-row"><span>Location</span><strong id="detail-location"></strong></div><div class="overview-row"><span>Job type</span><strong id="detail-type"></strong></div><button class="button button-primary full-button" id="apply-open-side" type="button">Apply for this role</button></aside>
+      </div>
+      <section class="recent-section" aria-labelledby="recent-heading"><p class="eyebrow">PICK UP WHERE YOU LEFT OFF</p><h2 id="recent-heading">Recently viewed jobs</h2><div id="recent-jobs" class="featured-grid"></div></section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="index.html"><span class="brand-mark">D</span> DevJobs</a><p>Good work starts with the right opportunity.</p><span>© <span id="year"></span> DevJobs</span></div></footer>
+
+  <dialog class="application-dialog" id="application-dialog" aria-labelledby="application-title">
+    <div class="dialog-heading"><div><p class="eyebrow">YOUR NEXT CHAPTER</p><h2 id="application-title">Apply for this role</h2></div><button class="icon-button" id="application-close" type="button" aria-label="Close application">×</button></div>
+    <ol class="step-indicator" id="step-indicator" aria-label="Application steps"><li aria-current="step">Personal</li><li>Professional</li><li>Uploads</li><li>Review</li></ol>
+    <div id="application-error" class="form-error" role="alert" tabindex="-1" hidden></div>
+    <form id="application-form" novalidate>
+      <section class="application-step" data-step="1"><h3>Personal information</h3><label class="form-field">Full name<input name="name" autocomplete="name" required maxlength="100"></label><label class="form-field">Email<input name="email" type="email" autocomplete="email" required></label><label class="form-field">Phone<input name="phone" type="tel" autocomplete="tel" required placeholder="10 digits or +91"></label></section>
+      <section class="application-step" data-step="2" hidden><h3>Professional details</h3><label class="form-field">Years of experience<input name="experience" type="number" min="0" step="1" required></label><label class="form-field">Skills<textarea name="skills" rows="3" required placeholder="Separate skills with commas"></textarea></label><label class="form-field">Portfolio URL <span class="optional">(optional)</span><input name="portfolio" type="url" placeholder="https://"></label><label class="form-field">LinkedIn URL <span class="optional">(optional)</span><input name="linkedin" type="url" placeholder="https://www.linkedin.com/in/..."></label></section>
+      <section class="application-step" data-step="3" hidden><h3>Upload your documents</h3><p class="muted">PDF, DOC, or DOCX. Maximum 5 MB per file.</p><label class="form-field">Resume <input name="resume" type="file" required accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></label><label class="form-field">Cover letter <span class="optional">(optional)</span><input name="coverLetter" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></label></section>
+      <section class="application-step" data-step="4" hidden><h3>Review your application</h3><div id="application-review" class="review-summary"></div><p class="muted">Please check your details before submitting.</p></section>
+      <div class="dialog-actions"><button class="button button-quiet" id="step-back" type="button" hidden>Back</button><span class="dialog-spacer"></span><button class="button button-secondary" id="step-next" type="button">Continue</button><button class="button button-primary" id="application-submit" type="submit" hidden>Submit application</button></div>
+    </form>
+    <section id="application-success" class="application-success" hidden><span class="success-mark" aria-hidden="true">✓</span><h3>Application Submitted Successfully</h3><p>Application ID: <strong id="application-id"></strong></p><p>Applied Date: <strong id="application-date"></strong></p><button class="button button-primary" id="success-close" type="button">Done</button></section>
+  </dialog>
+</body>
+</html>
+
+

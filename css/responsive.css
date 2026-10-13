@@ -1,0 +1,298 @@
+/* ==========================================================================
+   responsive.css — all breakpoints. Load AFTER styles.css.
+   Desktop-first: each block overrides the one above it.
+   Breakpoints: 960 (tablet) · 760 (large phone) · 700 (nav wraps) ·
+                560 (phone) · 420 (small phone)
+   ========================================================================== */
+
+/* ---------- Tablet: ≤ 960px ---------- */
+@media (max-width: 960px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.55fr);
+  }
+  .hero-art {
+    height: 15rem;
+    transform: scale(0.7);
+    transform-origin: center;
+  }
+
+  .featured-grid {
+    gap: var(--space-3);
+  }
+  .featured-card {
+    padding: var(--space-4);
+  }
+
+  /* Sidebar filters stay beside the list while there's room */
+  .job-layout {
+    grid-template-columns: 13.25rem minmax(0, 1fr);
+    gap: var(--space-4);
+  }
+  .filter-panel {
+    padding: var(--space-4);
+  }
+
+  /* Detail page */
+  .detail-layout {
+    grid-template-columns: minmax(0, 1fr) 16rem;
+  }
+}
+
+/* ---------- Large phone / small tablet: ≤ 760px ---------- */
+@media (max-width: 760px) {
+  .hero {
+    display: block;
+    min-height: 0;
+    padding-block: var(--space-7) var(--space-5);
+  }
+  .hero-art {
+    display: none;
+  }
+
+  /* Featured: two columns, then one at 560 */
+  .featured-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Filters move above the list and lay out as a compact grid */
+  .job-layout {
+    grid-template-columns: 1fr;
+  }
+  .filter-panel {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-4);
+  }
+  .filter-heading {
+    grid-column: 1 / -1;
+  }
+  .filter-group {
+    align-self: start;
+  }
+
+  /* Detail page: summary first, then the description */
+  .detail-layout {
+    grid-template-columns: 1fr;
+  }
+  .detail-aside {
+    position: static;
+    order: -1;
+  }
+  .detail-hero {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: var(--space-5);
+  }
+  .detail-hero-actions {
+    width: 100%;
+  }
+  .detail-hero-actions .button {
+    flex: 1;
+  }
+  .detail-copy {
+    padding: var(--space-5);
+  }
+  .recent-section .featured-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ---------- Nav wraps: ≤ 700px ---------- */
+@media (max-width: 700px) {
+  :root {
+    --header-h: 6.75rem; /* header is two rows now; keeps sticky offsets right */
+  }
+
+  .nav {
+    min-height: 4.25rem;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+    padding-block: var(--space-3);
+  }
+  .nav-links {
+    order: 3;
+    width: 100%;
+    gap: var(--space-5);
+    /* One scrollable row instead of wrapping onto a third line */
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-links a {
+    white-space: nowrap;
+  }
+  .button-quiet {
+    font-size: var(--text-sm);
+  }
+
+  .hero h1 {
+    font-size: clamp(2.5rem, 11vw, 3.6rem);
+  }
+  .hero-search {
+    gap: var(--space-1);
+  }
+  .hero-search .button {
+    padding-inline: var(--space-3);
+    font-size: var(--text-sm);
+  }
+
+  .featured-section {
+    padding-block: var(--space-5) var(--space-6);
+  }
+  .section-heading h2 {
+    font-size: 1.5rem;
+  }
+  .category-section {
+    padding-block: var(--space-5);
+  }
+  .jobs-section {
+    padding-block: var(--space-6) var(--space-7);
+  }
+  .jobs-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .sort-control {
+    align-self: flex-end;
+  }
+
+  /* Job card: stack the side column under the content */
+  .job-card {
+    grid-template-columns: 1fr;
+    padding: var(--space-4);
+  }
+  .job-card-side {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    padding-inline-start: 3.65rem; /* line up under the title, past the logo */
+  }
+  .job-card-bottom,
+  .job-tags {
+    margin-inline-start: 0;
+  }
+  .job-card-bottom {
+    margin-top: var(--space-3);
+  }
+
+  .footer-inner {
+    padding-block: var(--space-4);
+  }
+  .footer-inner p {
+    order: 3;
+    width: 100%;
+  }
+}
+
+/* ---------- Phone: ≤ 560px ---------- */
+@media (max-width: 560px) {
+  .wrap {
+    width: min(100% - 2rem, 35rem);
+  }
+
+  .featured-grid,
+  .recent-section .featured-grid {
+    grid-template-columns: 1fr;
+  }
+  /* Show the top two featured jobs only — scoped so the
+     "recent jobs" cards on the detail page are not affected */
+  .featured-section .featured-card:nth-child(n + 3) {
+    display: none;
+  }
+
+  /* Detail page */
+  .detail-main {
+    padding-top: var(--space-4);
+  }
+  .detail-hero {
+    padding: var(--space-4);
+  }
+  .detail-company {
+    align-items: flex-start;
+  }
+  .detail-logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--radius-md);
+  }
+  .detail-company h1 {
+    font-size: 1.4rem;
+  }
+  .detail-hero-actions {
+    flex-direction: column;
+  }
+  .detail-copy {
+    padding: var(--space-4);
+  }
+
+  /* Application dialog */
+  .application-dialog {
+    padding: var(--space-4);
+  }
+  .step-indicator li {
+    font-size: 0.65rem;
+  }
+  .review-row {
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+  .review-row strong {
+    text-align: start;
+  }
+  .dialog-actions {
+    flex-wrap: wrap;
+  }
+}
+
+/* ---------- Small phone: ≤ 420px ---------- */
+@media (max-width: 420px) {
+  .wrap {
+    width: calc(100% - 1.5rem);
+  }
+
+  .nav-links {
+    font-size: var(--text-sm);
+  }
+  .nav-actions .button {
+    padding-inline: var(--space-3);
+  }
+
+  .hero-search {
+    padding: var(--space-1);
+  }
+  .hero-search > span {
+    padding-inline-start: var(--space-1);
+  }
+  .hero-search input {
+    font-size: var(--text-sm);
+  }
+
+  .filter-panel {
+    padding: var(--space-4);
+    grid-template-columns: 1fr;
+  }
+  .filter-heading {
+    grid-column: auto;
+  }
+
+  .job-card .company-row {
+    gap: var(--space-2);
+  }
+  .company-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .job-card-side {
+    padding-inline-start: 3.05rem; /* 2.5rem logo + 0.55rem gap */
+  }
+  .featured-meta {
+    font-size: var(--text-xs);
+  }
+}

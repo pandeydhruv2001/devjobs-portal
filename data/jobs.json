@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "job-001",
+    "companyName": "Northstar Labs",
+    "companyLogo": {
+      "initials": "NL",
+      "backgroundColor": "#3157d5"
+    },
+    "title": "Frontend Developer",
+    "experience": {
+      "min": 2,
+      "max": 4
+    },
+    "salary": 1450000,
+    "jobType": "Hybrid",
+    "location": "Bengaluru",
+    "category": "Technology",
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "postedDate": "2026-10-13",
+    "featured": true,
+    "description": "Northstar Labs is looking for a Frontend Developer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to frontend developer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–4 years of relevant experience.",
+      "Practical experience with JavaScript and HTML."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-002",
+    "companyName": "Brightwell Health",
+    "companyLogo": {
+      "initials": "BH",
+      "backgroundColor": "#9b4cdb"
+    },
+    "title": "Product Designer",
+    "experience": {
+      "min": 3,
+      "max": 5
+    },
+    "salary": 1650000,
+    "jobType": "Onsite",
+    "location": "Mumbai",
+    "category": "Design",
+    "skills": [
+      "Figma",
+      "Prototyping",
+      "User Research"
+    ],
+    "postedDate": "2026-10-12",
+    "featured": true,
+    "description": "Brightwell Health is looking for a Product Designer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to product designer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–5 years of relevant experience.",
+      "Practical experience with Figma and Prototyping."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-003",
+    "companyName": "Orbit Analytics",
+    "companyLogo": {
+      "initials": "OA",
+      "backgroundColor": "#17866d"
+    },
+    "title": "Data Analyst",
+    "experience": {
+      "min": 1,
+      "max": 3
+    },
+    "salary": 1300000,
+    "jobType": "Remote",
+    "location": "Delhi NCR",
+    "category": "Data",
+    "skills": [
+      "SQL",
+      "Python",
+      "Data Visualization"
+    ],
+    "postedDate": "2026-10-11",
+    "featured": true,
+    "description": "Orbit Analytics is looking for a Data Analyst to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to data analyst goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "1–3 years of relevant experience.",
+      "Practical experience with SQL and Python."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-004",
+    "companyName": "Juniper Works",
+    "companyLogo": {
+      "initials": "JW",
+      "backgroundColor": "#bd5b36"
+    },
+    "title": "Product Manager",
+    "experience": {
+      "min": 4,
+      "max": 7
+    },
+    "salary": 2200000,
+    "jobType": "Hybrid",
+    "location": "Hyderabad",
+    "category": "Product",
+    "skills": [
+      "Roadmapping",
+      "Analytics",
+      "Communication"
+    ],
+    "postedDate": "2026-10-10",
+    "featured": true,
+    "description": "Juniper Works is looking for a Product Manager to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to product manager goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "4–7 years of relevant experience.",
+      "Practical experience with Roadmapping and Analytics."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-005",
+    "companyName": "Cobalt Systems",
+    "companyLogo": {
+      "initials": "CS",
+      "backgroundColor": "#42677f"
+    },
+    "title": "Digital Marketing Specialist",
+    "experience": {
+      "min": 2,
+      "max": 4
+    },
+    "salary": 1150000,
+    "jobType": "Onsite",
+    "location": "Pune",
+    "category": "Marketing",
+    "skills": [
+      "SEO",
+      "Content Strategy",
+      "Analytics"
+    ],
+    "postedDate": "2026-10-09",
+    "featured": true,
+    "description": "Cobalt Systems is looking for a Digital Marketing Specialist to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to digital marketing specialist goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–4 years of relevant experience.",
+      "Practical experience with SEO and Content Strategy."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-006",
+    "companyName": "Lumen Creative",
+    "companyLogo": {
+      "initials": "LC",
+      "backgroundColor": "#b14c78"
+    },
+    "title": "Backend Developer",
+    "experience": {
+      "min": 3,
+      "max": 5
+    },
+    "salary": 1850000,
+    "jobType": "Remote",
+    "location": "Chennai",
+    "category": "Technology",
+    "skills": [
+      "Java",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "postedDate": "2026-10-08",
+    "featured": true,
+    "description": "Lumen Creative is looking for a Backend Developer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to backend developer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–5 years of relevant experience.",
+      "Practical experience with Java and REST APIs."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-007",
+    "companyName": "Fieldstone Finance",
+    "companyLogo": {
+      "initials": "FF",
+      "backgroundColor": "#3157d5"
+    },
+    "title": "UX Researcher",
+    "experience": {
+      "min": 2,
+      "max": 5
+    },
+    "salary": 1500000,
+    "jobType": "Hybrid",
+    "location": "Kochi",
+    "category": "Design",
+    "skills": [
+      "User Interviews",
+      "Research",
+      "Usability Testing"
+    ],
+    "postedDate": "2026-10-07",
+    "featured": false,
+    "description": "Fieldstone Finance is looking for a UX Researcher to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to ux researcher goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–5 years of relevant experience.",
+      "Practical experience with User Interviews and Research."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-008",
+    "companyName": "Kite Mobility",
+    "companyLogo": {
+      "initials": "KM",
+      "backgroundColor": "#9b4cdb"
+    },
+    "title": "Machine Learning Engineer",
+    "experience": {
+      "min": 3,
+      "max": 6
+    },
+    "salary": 2650000,
+    "jobType": "Onsite",
+    "location": "Jaipur",
+    "category": "Data",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow"
+    ],
+    "postedDate": "2026-10-06",
+    "featured": false,
+    "description": "Kite Mobility is looking for a Machine Learning Engineer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to machine learning engineer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–6 years of relevant experience.",
+      "Practical experience with Python and Machine Learning."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-009",
+    "companyName": "Mosaic Learning",
+    "companyLogo": {
+      "initials": "ML",
+      "backgroundColor": "#17866d"
+    },
+    "title": "Product Operations Associate",
+    "experience": {
+      "min": 1,
+      "max": 3
+    },
+    "salary": 1150000,
+    "jobType": "Remote",
+    "location": "Remote - India",
+    "category": "Product",
+    "skills": [
+      "Operations",
+      "Analytics",
+      "Documentation"
+    ],
+    "postedDate": "2026-10-05",
+    "featured": false,
+    "description": "Mosaic Learning is looking for a Product Operations Associate to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to product operations associate goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "1–3 years of relevant experience.",
+      "Practical experience with Operations and Analytics."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-010",
+    "companyName": "Redwood Commerce",
+    "companyLogo": {
+      "initials": "RC",
+      "backgroundColor": "#bd5b36"
+    },
+    "title": "Content Strategist",
+    "experience": {
+      "min": 3,
+      "max": 5
+    },
+    "salary": 1350000,
+    "jobType": "Hybrid",
+    "location": "Ahmedabad",
+    "category": "Marketing",
+    "skills": [
+      "Writing",
+      "Content Strategy",
+      "SEO"
+    ],
+    "postedDate": "2026-10-04",
+    "featured": false,
+    "description": "Redwood Commerce is looking for a Content Strategist to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to content strategist goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–5 years of relevant experience.",
+      "Practical experience with Writing and Content Strategy."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-011",
+    "companyName": "Silverline Cloud",
+    "companyLogo": {
+      "initials": "SC",
+      "backgroundColor": "#42677f"
+    },
+    "title": "Full Stack Developer",
+    "experience": {
+      "min": 2,
+      "max": 5
+    },
+    "salary": 1950000,
+    "jobType": "Onsite",
+    "location": "Bengaluru",
+    "category": "Technology",
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "React"
+    ],
+    "postedDate": "2026-10-03",
+    "featured": false,
+    "description": "Silverline Cloud is looking for a Full Stack Developer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to full stack developer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–5 years of relevant experience.",
+      "Practical experience with JavaScript and Node.js."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-012",
+    "companyName": "Wildflower Studio",
+    "companyLogo": {
+      "initials": "WS",
+      "backgroundColor": "#b14c78"
+    },
+    "title": "Visual Designer",
+    "experience": {
+      "min": 2,
+      "max": 4
+    },
+    "salary": 1350000,
+    "jobType": "Remote",
+    "location": "Mumbai",
+    "category": "Design",
+    "skills": [
+      "Illustration",
+      "Design Systems",
+      "Figma"
+    ],
+    "postedDate": "2026-10-02",
+    "featured": false,
+    "description": "Wildflower Studio is looking for a Visual Designer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to visual designer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–4 years of relevant experience.",
+      "Practical experience with Illustration and Design Systems."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-013",
+    "companyName": "Summit Robotics",
+    "companyLogo": {
+      "initials": "SR",
+      "backgroundColor": "#3157d5"
+    },
+    "title": "Business Intelligence Analyst",
+    "experience": {
+      "min": 3,
+      "max": 5
+    },
+    "salary": 1700000,
+    "jobType": "Hybrid",
+    "location": "Delhi NCR",
+    "category": "Data",
+    "skills": [
+      "SQL",
+      "Tableau",
+      "Data Modeling"
+    ],
+    "postedDate": "2026-10-01",
+    "featured": false,
+    "description": "Summit Robotics is looking for a Business Intelligence Analyst to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to business intelligence analyst goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–5 years of relevant experience.",
+      "Practical experience with SQL and Tableau."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-014",
+    "companyName": "Clearpath Energy",
+    "companyLogo": {
+      "initials": "CE",
+      "backgroundColor": "#9b4cdb"
+    },
+    "title": "Product Marketing Manager",
+    "experience": {
+      "min": 4,
+      "max": 7
+    },
+    "salary": 2150000,
+    "jobType": "Onsite",
+    "location": "Hyderabad",
+    "category": "Marketing",
+    "skills": [
+      "Positioning",
+      "Go-to-Market",
+      "Research"
+    ],
+    "postedDate": "2026-09-30",
+    "featured": false,
+    "description": "Clearpath Energy is looking for a Product Marketing Manager to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to product marketing manager goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "4–7 years of relevant experience.",
+      "Practical experience with Positioning and Go-to-Market."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-015",
+    "companyName": "Bluebird Media",
+    "companyLogo": {
+      "initials": "BM",
+      "backgroundColor": "#17866d"
+    },
+    "title": "QA Automation Engineer",
+    "experience": {
+      "min": 2,
+      "max": 5
+    },
+    "salary": 1650000,
+    "jobType": "Remote",
+    "location": "Pune",
+    "category": "Technology",
+    "skills": [
+      "Testing",
+      "Playwright",
+      "JavaScript"
+    ],
+    "postedDate": "2026-09-29",
+    "featured": false,
+    "description": "Bluebird Media is looking for a QA Automation Engineer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to qa automation engineer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–5 years of relevant experience.",
+      "Practical experience with Testing and Playwright."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-016",
+    "companyName": "Harbor Security",
+    "companyLogo": {
+      "initials": "HS",
+      "backgroundColor": "#bd5b36"
+    },
+    "title": "Interaction Designer",
+    "experience": {
+      "min": 3,
+      "max": 6
+    },
+    "salary": 1800000,
+    "jobType": "Hybrid",
+    "location": "Chennai",
+    "category": "Design",
+    "skills": [
+      "Interaction Design",
+      "Prototyping",
+      "Accessibility"
+    ],
+    "postedDate": "2026-09-28",
+    "featured": false,
+    "description": "Harbor Security is looking for a Interaction Designer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to interaction designer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–6 years of relevant experience.",
+      "Practical experience with Interaction Design and Prototyping."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-017",
+    "companyName": "Pioneer Foods",
+    "companyLogo": {
+      "initials": "PF",
+      "backgroundColor": "#42677f"
+    },
+    "title": "Data Engineer",
+    "experience": {
+      "min": 3,
+      "max": 6
+    },
+    "salary": 2350000,
+    "jobType": "Onsite",
+    "location": "Kochi",
+    "category": "Data",
+    "skills": [
+      "Python",
+      "ETL",
+      "Cloud Data"
+    ],
+    "postedDate": "2026-09-27",
+    "featured": false,
+    "description": "Pioneer Foods is looking for a Data Engineer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to data engineer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–6 years of relevant experience.",
+      "Practical experience with Python and ETL."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-018",
+    "companyName": "Pixel Harbor",
+    "companyLogo": {
+      "initials": "PH",
+      "backgroundColor": "#b14c78"
+    },
+    "title": "Associate Product Manager",
+    "experience": {
+      "min": 1,
+      "max": 3
+    },
+    "salary": 1500000,
+    "jobType": "Remote",
+    "location": "Jaipur",
+    "category": "Product",
+    "skills": [
+      "Prioritization",
+      "Communication",
+      "Analytics"
+    ],
+    "postedDate": "2026-09-26",
+    "featured": false,
+    "description": "Pixel Harbor is looking for a Associate Product Manager to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to associate product manager goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "1–3 years of relevant experience.",
+      "Practical experience with Prioritization and Communication."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-019",
+    "companyName": "Evergreen Bio",
+    "companyLogo": {
+      "initials": "EB",
+      "backgroundColor": "#3157d5"
+    },
+    "title": "Growth Marketing Manager",
+    "experience": {
+      "min": 4,
+      "max": 7
+    },
+    "salary": 2000000,
+    "jobType": "Hybrid",
+    "location": "Remote - India",
+    "category": "Marketing",
+    "skills": [
+      "Growth",
+      "Experimentation",
+      "Analytics"
+    ],
+    "postedDate": "2026-09-25",
+    "featured": false,
+    "description": "Evergreen Bio is looking for a Growth Marketing Manager to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to growth marketing manager goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "4–7 years of relevant experience.",
+      "Practical experience with Growth and Experimentation."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-020",
+    "companyName": "Atlas Logistics",
+    "companyLogo": {
+      "initials": "AL",
+      "backgroundColor": "#9b4cdb"
+    },
+    "title": "Cloud Platform Engineer",
+    "experience": {
+      "min": 4,
+      "max": 7
+    },
+    "salary": 2550000,
+    "jobType": "Onsite",
+    "location": "Ahmedabad",
+    "category": "Technology",
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Infrastructure"
+    ],
+    "postedDate": "2026-09-24",
+    "featured": false,
+    "description": "Atlas Logistics is looking for a Cloud Platform Engineer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to cloud platform engineer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "4–7 years of relevant experience.",
+      "Practical experience with AWS and Kubernetes."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-021",
+    "companyName": "Daybreak Travel",
+    "companyLogo": {
+      "initials": "DT",
+      "backgroundColor": "#17866d"
+    },
+    "title": "Brand Designer",
+    "experience": {
+      "min": 2,
+      "max": 5
+    },
+    "salary": 1550000,
+    "jobType": "Remote",
+    "location": "Bengaluru",
+    "category": "Design",
+    "skills": [
+      "Brand Identity",
+      "Typography",
+      "Adobe Illustrator"
+    ],
+    "postedDate": "2026-09-23",
+    "featured": false,
+    "description": "Daybreak Travel is looking for a Brand Designer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to brand designer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–5 years of relevant experience.",
+      "Practical experience with Brand Identity and Typography."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-022",
+    "companyName": "Copperleaf Design",
+    "companyLogo": {
+      "initials": "CD",
+      "backgroundColor": "#bd5b36"
+    },
+    "title": "Analytics Engineer",
+    "experience": {
+      "min": 2,
+      "max": 5
+    },
+    "salary": 1850000,
+    "jobType": "Hybrid",
+    "location": "Mumbai",
+    "category": "Data",
+    "skills": [
+      "SQL",
+      "dbt",
+      "Data Modeling"
+    ],
+    "postedDate": "2026-09-22",
+    "featured": false,
+    "description": "Copperleaf Design is looking for a Analytics Engineer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to analytics engineer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–5 years of relevant experience.",
+      "Practical experience with SQL and dbt."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-023",
+    "companyName": "Openfield AI",
+    "companyLogo": {
+      "initials": "OA",
+      "backgroundColor": "#42677f"
+    },
+    "title": "Product Analyst",
+    "experience": {
+      "min": 2,
+      "max": 4
+    },
+    "salary": 1700000,
+    "jobType": "Onsite",
+    "location": "Delhi NCR",
+    "category": "Product",
+    "skills": [
+      "SQL",
+      "Product Analytics",
+      "Experimentation"
+    ],
+    "postedDate": "2026-09-21",
+    "featured": false,
+    "description": "Openfield AI is looking for a Product Analyst to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to product analyst goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–4 years of relevant experience.",
+      "Practical experience with SQL and Product Analytics."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-024",
+    "companyName": "Kindred Care",
+    "companyLogo": {
+      "initials": "KC",
+      "backgroundColor": "#b14c78"
+    },
+    "title": "Performance Marketing Analyst",
+    "experience": {
+      "min": 2,
+      "max": 4
+    },
+    "salary": 1400000,
+    "jobType": "Remote",
+    "location": "Hyderabad",
+    "category": "Marketing",
+    "skills": [
+      "Paid Media",
+      "Attribution",
+      "Analytics"
+    ],
+    "postedDate": "2026-09-20",
+    "featured": false,
+    "description": "Kindred Care is looking for a Performance Marketing Analyst to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to performance marketing analyst goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "2–4 years of relevant experience.",
+      "Practical experience with Paid Media and Attribution."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-025",
+    "companyName": "Cloudberry Games",
+    "companyLogo": {
+      "initials": "CG",
+      "backgroundColor": "#3157d5"
+    },
+    "title": "Mobile App Developer",
+    "experience": {
+      "min": 3,
+      "max": 6
+    },
+    "salary": 2050000,
+    "jobType": "Hybrid",
+    "location": "Pune",
+    "category": "Technology",
+    "skills": [
+      "Kotlin",
+      "Android",
+      "REST APIs"
+    ],
+    "postedDate": "2026-09-19",
+    "featured": false,
+    "description": "Cloudberry Games is looking for a Mobile App Developer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to mobile app developer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–6 years of relevant experience.",
+      "Practical experience with Kotlin and Android."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-026",
+    "companyName": "Meridian Legal",
+    "companyLogo": {
+      "initials": "ML",
+      "backgroundColor": "#9b4cdb"
+    },
+    "title": "Service Designer",
+    "experience": {
+      "min": 3,
+      "max": 6
+    },
+    "salary": 1800000,
+    "jobType": "Onsite",
+    "location": "Chennai",
+    "category": "Design",
+    "skills": [
+      "Service Design",
+      "Journey Mapping",
+      "Facilitation"
+    ],
+    "postedDate": "2026-09-18",
+    "featured": false,
+    "description": "Meridian Legal is looking for a Service Designer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to service designer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–6 years of relevant experience.",
+      "Practical experience with Service Design and Journey Mapping."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-027",
+    "companyName": "Fable Publishing",
+    "companyLogo": {
+      "initials": "FP",
+      "backgroundColor": "#17866d"
+    },
+    "title": "Data Scientist",
+    "experience": {
+      "min": 3,
+      "max": 6
+    },
+    "salary": 2500000,
+    "jobType": "Remote",
+    "location": "Kochi",
+    "category": "Data",
+    "skills": [
+      "Python",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "postedDate": "2026-09-17",
+    "featured": false,
+    "description": "Fable Publishing is looking for a Data Scientist to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to data scientist goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–6 years of relevant experience.",
+      "Practical experience with Python and Statistics."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-028",
+    "companyName": "Vertex Networks",
+    "companyLogo": {
+      "initials": "VN",
+      "backgroundColor": "#bd5b36"
+    },
+    "title": "Product Lead",
+    "experience": {
+      "min": 7,
+      "max": 10
+    },
+    "salary": 3200000,
+    "jobType": "Hybrid",
+    "location": "Jaipur",
+    "category": "Product",
+    "skills": [
+      "Product Strategy",
+      "Leadership",
+      "Roadmapping"
+    ],
+    "postedDate": "2026-09-16",
+    "featured": false,
+    "description": "Vertex Networks is looking for a Product Lead to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to product lead goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "7–10 years of relevant experience.",
+      "Practical experience with Product Strategy and Leadership."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-029",
+    "companyName": "Goodland Homes",
+    "companyLogo": {
+      "initials": "GH",
+      "backgroundColor": "#42677f"
+    },
+    "title": "Community Marketing Manager",
+    "experience": {
+      "min": 3,
+      "max": 5
+    },
+    "salary": 1550000,
+    "jobType": "Onsite",
+    "location": "Remote - India",
+    "category": "Marketing",
+    "skills": [
+      "Community",
+      "Events",
+      "Content"
+    ],
+    "postedDate": "2026-09-15",
+    "featured": false,
+    "description": "Goodland Homes is looking for a Community Marketing Manager to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to community marketing manager goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "3–5 years of relevant experience.",
+      "Practical experience with Community and Events."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  },
+  {
+    "id": "job-030",
+    "companyName": "Riverbank Research",
+    "companyLogo": {
+      "initials": "RR",
+      "backgroundColor": "#b14c78"
+    },
+    "title": "Site Reliability Engineer",
+    "experience": {
+      "min": 4,
+      "max": 8
+    },
+    "salary": 2900000,
+    "jobType": "Remote",
+    "location": "Ahmedabad",
+    "category": "Technology",
+    "skills": [
+      "Linux",
+      "Observability",
+      "Kubernetes"
+    ],
+    "postedDate": "2026-09-14",
+    "featured": false,
+    "description": "Riverbank Research is looking for a Site Reliability Engineer to help build thoughtful, reliable products for its customers. You will work with a collaborative team and contribute from planning through delivery.",
+    "responsibilities": [
+      "Plan and deliver work related to site reliability engineer goals.",
+      "Partner with teammates to measure outcomes and improve the work."
+    ],
+    "requirements": [
+      "4–8 years of relevant experience.",
+      "Practical experience with Linux and Observability."
+    ],
+    "benefits": [
+      "Health insurance",
+      "Learning allowance",
+      "Flexible work hours"
+    ]
+  }
+]
